@@ -1,0 +1,25 @@
+{
+  "name": "lockpersonal-subscribe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "consumer": "node src/main/consumer.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauloguerra83/lockpersonal-subscribe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pauloguerra83/lockpersonal-subscribe/issues"
+  },
+  "homepage": "https://github.com/pauloguerra83/lockpersonal-subscribe#readme",
+  "dependencies": {
+    "kafkajs": "^1.16.0"
+  }
+}
